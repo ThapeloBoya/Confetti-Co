@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 
-export default function Contact() {
+const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -182,3 +182,5 @@ export default function Contact() {
     </>
   );
 }
+
+export default Contact;
